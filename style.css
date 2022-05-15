@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  font-family: 'Montserrat';
+  color:white;
+}
+
+.mainbox {
+
+  width: 800px;
+  height: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #ebebeb;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.profile{
+  width:30%;
+  height:100%;
+  float:left;
+  background-color: black;
+}
+
+.contents{
+  width:70%;
+  height:100%;
+  float:right;
+  background-color:#FF9E1B;
+}
+
+.circle {
+  margin: 0 auto;
+  width: 180px;
+  height: 200px;
+  border: 5px solid #7c7c7c;
+
+}
+
+.title-box {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.name-text {
+  font-size:14px;
+  color:lightgray;
+  line-height:50px;
+  font-weight: bold;
+}
+
+.department-text{
+  font-size:12px;
+  line-height:1px;
+}
+
+.profile-title {
+
+  text-align:left;
+  margin-left:30px;
+  font-weight:480;
+}
+
+.contents-title {
+
+  text-align:left;
+  margin-left:30px;
+  font-weight:bold;
+  
+}
+
+.contents-title span{
+
+  text-align:left;
+  margin-left:8px;
+  font-weight:bold;
+  font-size: 25px;
+  color:#282828;
+  
+}
+
+.content-box{
+
+  display:inline-block;
+  height:100px;
+  width:80%;
+  padding:15px;
+  margin-left:35px;
+  margin-top:5px;
+  margin-bottom:20px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ffffff;
+  background-color: rgba( 255, 255, 255, 0.5 );
+}
+
+.mbti-box{
+
+  text-align:left;
+  height:220px;
+  width:80%;
+  padding:15px; 
+  margin-left:35px;
+  margin-top:5px;
+  margin-bottom:20px;
+  font-size: 15px;
+  color:#282828;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ffffff;
+  background-color: rgba( 255, 255, 255, 0.5 );
+}
+
+.mbti-box span{
+
+  text-align:left;
+  font-size: 15px;
+  color:#282828;
+  font-weight: bold;
+  text-align: left;
+
+}
+
+
+.profile-info{
+  text-align:left;
+}
+
+.content-text{
+  
+  margin-left:30px;
+  font-weight:480;
+  line-height:10px;
+}
+
+.info-text{
+
+  margin-left:30px;
+  line-height:60px;
+  color:lightgray;
+}
+
+hr.underline{
+  width:180px;
+  margin-left:25px;
+  border: thin solid #7c7c7c;
+}
+
+.float-wrap {
+  overflow: hidden;
+}
+
+.title-text {
+  font-size:13px;
+  font-weight: bold;
+  color: #282828;
+  float: left;
+  margin-bottom:10px;
+}
+
+.title-text2 {
+  font-size:13px;
+  text-align:left;
+  font-weight: bold;
+  color: #282828;
+  margin-bottom:10px;
+}
+
+.year-text{
+  font-size:11px;
+  font-weight: bold;
+  color: #282828;
+  float: right;
+}
+
+.mbti-bar{
+  width:300px;
+  height:20px;
+}
+
